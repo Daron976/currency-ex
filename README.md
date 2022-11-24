@@ -195,6 +195,17 @@ Feel free to give it a start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank [REST COUNTRIES](https://restcountries.com/#api-endpoints-v3-all) and [Currency API](https://github.com/fawazahmed0/currency-api#readme) for the database.
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
