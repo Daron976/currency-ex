@@ -1,10 +1,5 @@
 /*eslint-disable*/
-
-import { configureStore } from "@reduxjs/toolkit";
-
 // API data
-
-// const APIURL = `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${baseCurrency}.json`;
 
 const FULLFILED = 'currency-ex/conversion/FULLFILED';
 
@@ -17,7 +12,6 @@ export const fetchBaseCurrency = (baseCurrency) => async (dispatch) => fetch(`ht
   .then((res) => res.json())
   .then((data) => {
     dispatch(fullfiled(data));
-    // console.log(data);
   });
 
 const baseCurrencyReducer = (state = [], action) => {

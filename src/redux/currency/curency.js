@@ -15,7 +15,6 @@ export const fetchCurrencies = () => async (dispatch) => fetch(APIURL)
   .then((res) => res.json())
   .then((data) => {
     dispatch(fullfiled(Object.entries(data)));
-    // console.log(Object.values(data))
   });
 
 const currencyReducer = (state = [], action) => {

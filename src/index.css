@@ -25,14 +25,32 @@ body {
     filter: drop-shadow(2px 4px 6px black);
   }
 
-  .logo {
-    margin: 0 1.5rem;
+  /* homepage */
+
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #005b85;
+    height: 100vh;
   }
 
-  /* homepage */
+  .home-page img {
+    width: 7rem;
+    filter: drop-shadow(2px 2px 6px black);
+  }
+
+  .home-page h1 {
+    filter: drop-shadow(2px 2px 2px black);
+  }
+
+
+  /* continents */
 
   a {
     text-decoration: none;
+    color: inherit;
   }
 
   .intro-content {
@@ -43,7 +61,7 @@ body {
     align-items: flex-end;
     padding-right: 1rem;
     height: 15rem;
-    margin-top: 6rem;
+    margin-top: 4rem;
   }
 
   .intro-content h1 {
@@ -92,7 +110,7 @@ body {
 
   .country-page,
   .conversion {
-    margin-top: 6.4rem;
+    margin-top: 4.4rem;
   }
 
   .country-img-container {
@@ -161,7 +179,8 @@ body {
     overflow-y: scroll;
   }
 
-  .btn-display {
+  .btn-display,
+  #proceed {
     border: none;
     background-color: #005b85;
     border-radius: 5px;

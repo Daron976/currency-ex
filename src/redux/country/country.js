@@ -11,10 +11,6 @@ const fullfiled = (obj) => ({
   payload: { obj },
 });
 
-const test = [];
-const keyContainer = [];
-const currencyCode = [];
-
 export const fetchCountires = () => async (dispatch) => fetch(APIURL)
   .then((res) => res.json())
   .then((data) => {
