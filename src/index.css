@@ -164,6 +164,13 @@ body {
     color: white;
   }
 
+  .search-bar input {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    text-align: center;
+  }
+
   .conversion input:focus {
     outline: none;
     filter: drop-shadow(2px 4px 6px black);
@@ -216,18 +223,11 @@ body {
     justify-content: center;
   }
 
-  .search-bar input {
-    border: none;
-    border-radius: 5px;
-    padding: 0.5rem 2rem;
-    text-align: center;
+  .search-bar input:focus {
+    outline: none;
   }
 
   .search-bar input::placeholder {
     text-align: center;
-  }
-
-  .search-bar input:focus {
-    outline: none;
   }
 }
