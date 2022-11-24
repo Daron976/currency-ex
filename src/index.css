@@ -209,4 +209,25 @@ body {
     align-self: flex-end;
     padding: 0;
   }
+
+  .search-bar {
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .search-bar input {
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 2rem;
+    text-align: center;
+  }
+
+  .search-bar input::placeholder {
+    text-align: center;
+  }
+
+  .search-bar input:focus {
+    outline: none;
+  }
 }

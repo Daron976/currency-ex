@@ -203,6 +203,7 @@ Feel free to give it a start
 
 I would like to thank [REST COUNTRIES](https://restcountries.com/#api-endpoints-v3-all) and [Currency API](https://github.com/fawazahmed0/currency-api#readme) for the database.
 
+I would also like to thank Nelson Sakwa the author of the original design for a great design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

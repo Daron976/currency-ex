@@ -138,7 +138,6 @@ const Conversion = () => {
           <select
             style={{
               display: displayState ? 'block' : 'none',
-              zIndex: 2,
             }}
             size="10"
             name="currency-item"
