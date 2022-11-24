@@ -63,7 +63,7 @@ This is a currency exchange app that allows users to convert the currency of any
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://currex976.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
