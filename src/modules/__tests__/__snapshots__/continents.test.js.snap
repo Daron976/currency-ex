@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Continents Continents items renders as expected 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div>
+        <header
+          class="header"
+        >
+          <i
+            class="fa-solid fa-backward-step"
+          />
+          <img
+            alt="App logo"
+            src="https://img.icons8.com/external-icons-smashing-stocks/68/000000/external-Currencies-stock-market-icons-smashing-stocks.png"
+          />
+          <a
+            href="/continents"
+          >
+            <span
+              class="material-symbols-outlined"
+            >
+              home
+            </span>
+          </a>
+        </header>
+        <section
+          class="continents-page"
+        >
+          <div
+            class="intro"
+          >
+            <div
+              class="intro-content"
+            >
+              <h1
+                class="intro-text"
+              >
+                Currex
+              </h1>
+              <p
+                class="intro-subtext"
+              >
+                latest currency figures
+              </p>
+            </div>
+          </div>
+          <section
+            class="categories"
+          >
+            <h2>
+              Regions
+            </h2>
+            <div
+              class="categories-container"
+            >
+              <a
+                class="regions"
+                href="/Africa"
+              >
+                <div
+                  class="category"
+                  id="Africa"
+                >
+                  <img
+                    alt="Africa"
+                    src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                  />
+                  <p>
+                    Africa
+                  </p>
+                </div>
+              </a>
+              <a
+                class="regions"
+                href="/Europe"
+              >
+                <div
+                  class="category"
+                  id="Europe"
+                >
+                  <img
+                    alt="Europe"
+                    src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                  />
+                  <p>
+                    Europe
+                  </p>
+                </div>
+              </a>
+              <a
+                class="regions"
+                href="/Americas"
+              >
+                <div
+                  class="category"
+                  id="Americas"
+                >
+                  <img
+                    alt="Americas"
+                    src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                  />
+                  <p>
+                    Americas
+                  </p>
+                </div>
+              </a>
+              <a
+                class="regions"
+                href="/Asia"
+              >
+                <div
+                  class="category"
+                  id="Asia"
+                >
+                  <img
+                    alt="Asia"
+                    src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                  />
+                  <p>
+                    Asia
+                  </p>
+                </div>
+              </a>
+              <a
+                class="regions"
+                href="/Oceania"
+              >
+                <div
+                  class="category"
+                  id="Oceania"
+                >
+                  <img
+                    alt="Oceania"
+                    src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                  />
+                  <p>
+                    Oceania
+                  </p>
+                </div>
+              </a>
+            </div>
+          </section>
+        </section>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <header
+        class="header"
+      >
+        <i
+          class="fa-solid fa-backward-step"
+        />
+        <img
+          alt="App logo"
+          src="https://img.icons8.com/external-icons-smashing-stocks/68/000000/external-Currencies-stock-market-icons-smashing-stocks.png"
+        />
+        <a
+          href="/continents"
+        >
+          <span
+            class="material-symbols-outlined"
+          >
+            home
+          </span>
+        </a>
+      </header>
+      <section
+        class="continents-page"
+      >
+        <div
+          class="intro"
+        >
+          <div
+            class="intro-content"
+          >
+            <h1
+              class="intro-text"
+            >
+              Currex
+            </h1>
+            <p
+              class="intro-subtext"
+            >
+              latest currency figures
+            </p>
+          </div>
+        </div>
+        <section
+          class="categories"
+        >
+          <h2>
+            Regions
+          </h2>
+          <div
+            class="categories-container"
+          >
+            <a
+              class="regions"
+              href="/Africa"
+            >
+              <div
+                class="category"
+                id="Africa"
+              >
+                <img
+                  alt="Africa"
+                  src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                />
+                <p>
+                  Africa
+                </p>
+              </div>
+            </a>
+            <a
+              class="regions"
+              href="/Europe"
+            >
+              <div
+                class="category"
+                id="Europe"
+              >
+                <img
+                  alt="Europe"
+                  src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                />
+                <p>
+                  Europe
+                </p>
+              </div>
+            </a>
+            <a
+              class="regions"
+              href="/Americas"
+            >
+              <div
+                class="category"
+                id="Americas"
+              >
+                <img
+                  alt="Americas"
+                  src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                />
+                <p>
+                  Americas
+                </p>
+              </div>
+            </a>
+            <a
+              class="regions"
+              href="/Asia"
+            >
+              <div
+                class="category"
+                id="Asia"
+              >
+                <img
+                  alt="Asia"
+                  src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                />
+                <p>
+                  Asia
+                </p>
+              </div>
+            </a>
+            <a
+              class="regions"
+              href="/Oceania"
+            >
+              <div
+                class="category"
+                id="Oceania"
+              >
+                <img
+                  alt="Oceania"
+                  src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                />
+                <p>
+                  Oceania
+                </p>
+              </div>
+            </a>
+          </div>
+        </section>
+      </section>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "store": Object {
+    "@@observable": [Function],
+    "dispatch": [Function],
+    "getState": [Function],
+    "replaceReducer": [Function],
+    "subscribe": [Function],
+  },
+  "unmount": [Function],
+}
+`;
