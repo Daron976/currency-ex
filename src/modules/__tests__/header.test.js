@@ -4,12 +4,12 @@ import Header from '../header';
 
 describe('Header', () => {
   test('Header items renders as expected', async () => {
-    const snapNavigation = renderer.create(
+    const snapHeader = renderer.create(
       <BrowserRouter>
         <Header />
       </BrowserRouter>,
     )
       .toJSON();
-    expect(snapNavigation).toMatchSnapshot();
+    expect(snapHeader).toMatchSnapshot();
   });
 });

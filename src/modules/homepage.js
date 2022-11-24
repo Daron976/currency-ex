@@ -7,7 +7,13 @@ const Homepage = () => (
       <h1>Welcome to Currex</h1>
     </div>
     <Link to="continents">
-      <button type="button" name="proceed" id="proceed">Proceed</button>
+      <button
+        type="button"
+        name="proceed"
+        id="proceed"
+      >
+        Proceed
+      </button>
     </Link>
   </section>
 );
