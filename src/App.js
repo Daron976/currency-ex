@@ -8,6 +8,7 @@ import Homepage from './modules/homepage';
 import { fetchCountires } from './redux/country/country';
 import Conversion from './modules/conversion';
 import { fetchCurrencies } from './redux/currency/curency';
+import { fetchBaseCurrency } from './redux/conversion/baseCurrency';
 
 const App = () => {
   const dispatch = useDispatch();

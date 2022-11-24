@@ -1,7 +1,5 @@
-const Option = (item) => {
-  return (
-    <option value={item}>{item}</option>
-  )
-}
+const Option = (item) => (
+  <option value={item}>{item}</option>
+);
 
-export default Option
+export default Option;

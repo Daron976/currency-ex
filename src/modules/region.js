@@ -7,11 +7,6 @@ const Region = () => {
 
   const fetched = useSelector((state) => state.countryReducer);
 
-  const fetchedCurrencies = useSelector((state) => state.currencyReducer);
-
-  console.log(fetched[0].currencies);
-  console.log(fetchedCurrencies);
-
   const data = fetched.filter((item) => item.region === region);
 
   if (data.length === 0) {

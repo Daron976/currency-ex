@@ -11,6 +11,10 @@ const fullfiled = (obj) => ({
   payload: { obj },
 });
 
+const test = [];
+const keyContainer = [];
+const currencyCode = [];
+
 export const fetchCountires = () => async (dispatch) => fetch(APIURL)
   .then((res) => res.json())
   .then((data) => {
@@ -25,9 +29,7 @@ export const fetchCountires = () => async (dispatch) => fetch(APIURL)
       }
       return 0;
     });
-    // console.log(data);
     dispatch(fullfiled(data));
-    localStorage.setItem('fetchedData', JSON.stringify(data));
   });
 
 const countryReducer = (state = [], action) => {
