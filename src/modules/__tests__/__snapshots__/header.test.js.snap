@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header Header items renders as expected 1`] = `
+<header
+  className="header"
+>
+  <i
+    className="fa-solid fa-backward-step"
+    onClick={[Function]}
+  />
+  <img
+    alt="App logo"
+    src="https://img.icons8.com/external-icons-smashing-stocks/68/000000/external-Currencies-stock-market-icons-smashing-stocks.png"
+  />
+  <a
+    href="/continents"
+    onClick={[Function]}
+  >
+    <span
+      className="material-symbols-outlined"
+    >
+      home
+    </span>
+  </a>
+</header>
+`;

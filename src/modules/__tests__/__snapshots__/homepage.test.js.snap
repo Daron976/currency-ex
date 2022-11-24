@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Homepage Homepage items renders as expected 1`] = `
+<section
+  className="home-page"
+>
+  <img
+    alt="App logo"
+    src="https://img.icons8.com/external-icons-smashing-stocks/68/000000/external-Currencies-stock-market-icons-smashing-stocks.png"
+  />
+  <div>
+    <h1>
+      Welcome to Currex
+    </h1>
+  </div>
+  <a
+    href="/continents"
+    onClick={[Function]}
+  >
+    <button
+      id="proceed"
+      name="proceed"
+      type="button"
+    >
+      Proceed
+    </button>
+  </a>
+</section>
+`;
