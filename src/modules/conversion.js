@@ -28,6 +28,7 @@ const Conversion = () => {
   let currencyCode;
   let final;
   let valueObj;
+  let valueArr;
 
   // UI functions
 
@@ -43,11 +44,11 @@ const Conversion = () => {
   };
 
   const conversion = (e) => {
-    setInputValue(e.target.value * valueObj[optionValue]);
+    setInputValue(e.target.value * valueArr[optionValue]);
   };
 
   const reverseConversion = (e) => {
-    setReverseValue(e.target.value / valueObj[optionValue]);
+    setReverseValue(e.target.value / valueArr[optionValue]);
   };
 
   // setting input placeholder text
@@ -64,6 +65,9 @@ const Conversion = () => {
   useEffect(() => {
     if (baseData) {
       valueObj = (Object.values(baseData))[1]; //eslint-disable-line
+    }
+    if (valueObj) {
+      valueArr = Object.values(valueObj); //eslint-disable-line
     }
   });
 
@@ -108,62 +112,68 @@ const Conversion = () => {
             <li className="info-list-item">{data[0].timezones[0]}</li>
           </ul>
           <img src={data[0].flags.svg} alt={data[0].name.common} />
-        </section>
-        <form action="" className="conversion-form">
-          <h3>Conversion</h3>
-          <label htmlFor="value">
-            <input
-              type="text"
-              name="value"
-              id="value"
-              placeholder={reverseValue === 0 ? final : reverseValue}
-              onChange={conversion}
-              onBlur={(e) => {
-                e.target.value = '';
-                setInputValue(0);
+          <form action="" className="conversion-form">
+            <h3>Conversion</h3>
+            <label htmlFor="value">
+              <input
+                type="text"
+                name="value"
+                id="value"
+                placeholder={reverseValue === 0 ? final : reverseValue}
+                onChange={conversion}
+                onBlur={(e) => {
+                  e.target.value = '';
+                  setInputValue(0);
+                }}
+              />
+            </label>
+            <button
+              style={{
+                display: displayState ? 'none' : 'block',
               }}
-            />
-          </label>
-          <button
-            style={{
-              display: displayState ? 'none' : 'block',
-            }}
-            type="button"
-            name="displaySelect"
-            onClick={displaySelect}
-            className="btn-display"
-          >
-            Select another currency
-          </button>
-          <select
-            style={{
-              display: displayState ? 'block' : 'none',
-            }}
-            size="10"
-            name="currency-item"
-            id="currency-select"
-            onClick={resultName}
-          >
-            {
-                fetchCurrencies.map((item) => (
-                  <option key={item[0]} value={item[0]}>{item[1]}</option>
+              type="button"
+              name="displaySelect"
+              onClick={displaySelect}
+              className="btn-display"
+            >
+              Select another currency
+            </button>
+            <ul //eslint-disable-line
+              style={{
+                display: displayState ? 'block' : 'none',
+              }}
+              name="currency-item"
+              id="currency-select"
+              onClick={resultName}
+              className="currency-li"
+            >
+              {
+                fetchCurrencies.map((item, index) => (
+                  <li //eslint-disable-line
+                    key={item[0]}
+                    value={index}
+                    onClick={resultName} //eslint-disable-line
+                  >
+                    {item[1]}
+                  </li>
                 ))
               }
-          </select>
-          <label htmlFor="result">
-            <input
-              type="text"
-              name="result"
-              id="result"
-              placeholder={inputValue === 0 ? inputState : inputValue}
-              onChange={reverseConversion}
-              onBlur={(e) => {
-                e.target.value = '';
-                setReverseValue(0);
-              }}
-            />
-          </label>
-        </form>
+            </ul>
+            <label htmlFor="result">
+              <input
+                type="text"
+                name="result"
+                id="result"
+                placeholder={inputValue === 0 ? inputState : inputValue}
+                onChange={reverseConversion}
+                onBlur={(e) => {
+                  e.target.value = '';
+                  setReverseValue(0);
+                }}
+              />
+            </label>
+          </form>
+        </section>
       </section>
     </div>
   );
