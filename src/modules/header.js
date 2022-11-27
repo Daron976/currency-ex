@@ -12,11 +12,7 @@ const Header = () => {
       />
       <img src="https://img.icons8.com/external-icons-smashing-stocks/68/000000/external-Currencies-stock-market-icons-smashing-stocks.png" alt="App logo" />
       <Link to="/continents">
-        <span
-          className="material-symbols-outlined"
-        >
-          home
-        </span>
+        <i className="fa-solid fa-house" />
       </Link>
     </header>
   );
