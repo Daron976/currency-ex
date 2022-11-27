@@ -182,7 +182,10 @@ body {
     border: none;
     border-radius: 0.3rem;
     overflow-y: scroll;
-    position: fixed;
+
+    /* position: fixed; */
+
+    /* z-index: 2; */
     height: 11rem;
   }
 
