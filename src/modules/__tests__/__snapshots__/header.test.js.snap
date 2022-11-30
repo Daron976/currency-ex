@@ -16,11 +16,9 @@ exports[`Header Header items renders as expected 1`] = `
     href="/continents"
     onClick={[Function]}
   >
-    <span
-      className="material-symbols-outlined"
-    >
-      home
-    </span>
+    <i
+      className="fa-solid fa-house"
+    />
   </a>
 </header>
 `;

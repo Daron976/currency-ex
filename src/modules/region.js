@@ -60,12 +60,14 @@ const Region = () => {
                         <img src={item.flags.svg} alt={item.name.common} />
                         <img src="https://img.icons8.com/external-xnimrodx-lineal-gradient-xnimrodx/64/null/external-exchange-avitation-and-airport-xnimrodx-lineal-gradient-xnimrodx.png" alt="money exchange" />
                       </div>
-                      <p className="text">{item.name.official}</p>
-                      <p className="sub-text">
-                        &#40;
-                        {item.name.common}
-                        &#41;
-                      </p>
+                      <div>
+                        <p className="text">{item.name.official}</p>
+                        <p className="sub-text">
+                          &#40;
+                          {item.name.common}
+                          &#41;
+                        </p>
+                      </div>
                     </li>
                   </Link>
                 ))

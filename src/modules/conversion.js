@@ -97,21 +97,25 @@ const Conversion = () => {
           </p>
         </div>
         <section className="country-info">
-          <h2>{data[0].name.official}</h2>
-          <ul className="country-info-list">
-            <li className="info-list-item">{data[0].region}</li>
-            <li className="info-list-item">{data[0].subregion}</li>
-            <li className="info-list-item">
-              Population
-              {' '}
-              :
-              {' '}
-              {data[0].population}
-            </li>
-            <li className="info-list-item">{final}</li>
-            <li className="info-list-item">{data[0].timezones[0]}</li>
-          </ul>
-          <img src={data[0].flags.svg} alt={data[0].name.common} />
+          <article>
+            <div>
+              <h2>{data[0].name.official}</h2>
+              <ul className="country-info-list">
+                <li className="info-list-item">{data[0].region}</li>
+                <li className="info-list-item">{data[0].subregion}</li>
+                <li className="info-list-item">
+                  Population
+                  {' '}
+                  :
+                  {' '}
+                  {data[0].population}
+                </li>
+                <li className="info-list-item">{final}</li>
+                <li className="info-list-item">{data[0].timezones[0]}</li>
+              </ul>
+            </div>
+            <img src={data[0].flags.svg} alt={data[0].name.common} />
+          </article>
           <form action="" className="conversion-form">
             <h3>Conversion</h3>
             <label htmlFor="value">

@@ -19,11 +19,9 @@ Object {
           <a
             href="/continents"
           >
-            <span
-              class="material-symbols-outlined"
-            >
-              home
-            </span>
+            <i
+              class="fa-solid fa-house"
+            />
           </a>
         </header>
         <section
@@ -35,16 +33,32 @@ Object {
             <div
               class="intro-content"
             >
-              <h1
-                class="intro-text"
+              <div
+                class="intro-details"
               >
-                Currex
-              </h1>
-              <p
-                class="intro-subtext"
+                <h1
+                  class="intro-text"
+                >
+                  Currex
+                </h1>
+                <p
+                  class="intro-subtext"
+                >
+                  Foreign Exchange
+                  <br />
+                  Latest currency figures
+                </p>
+              </div>
+              <div
+                class="scroll"
+                style="display: block;"
               >
-                latest currency figures
-              </p>
+                Scroll Down
+                <br />
+                <i
+                  class="fa-sharp fa-solid fa-chevron-down fa-3x"
+                />
+              </div>
             </div>
           </div>
           <section
@@ -56,6 +70,174 @@ Object {
             <div
               class="categories-container"
             >
+              <div
+                class="wrapper1"
+              >
+                <a
+                  class="regions"
+                  href="/Africa"
+                >
+                  <div
+                    class="category"
+                    id="Africa"
+                  >
+                    <img
+                      alt="Africa"
+                      src="https://img.icons8.com/3d-fluency/94/null/globe-africa.png"
+                    />
+                    <p>
+                      Africa
+                    </p>
+                  </div>
+                </a>
+                <a
+                  class="regions"
+                  href="/Europe"
+                >
+                  <div
+                    class="category"
+                    id="Europe"
+                  >
+                    <img
+                      alt="Europe"
+                      src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                    />
+                    <p>
+                      Europe
+                    </p>
+                  </div>
+                </a>
+                <a
+                  class="regions"
+                  href="/Americas"
+                >
+                  <div
+                    class="category"
+                    id="Americas"
+                  >
+                    <img
+                      alt="Americas"
+                      src="https://img.icons8.com/3d-fluency/94/null/america.png"
+                    />
+                    <p>
+                      Americas
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div
+                class="wrapper2"
+              >
+                <a
+                  class="regions"
+                  href="/Asia"
+                >
+                  <div
+                    class="category"
+                    id="Asia"
+                  >
+                    <img
+                      alt="Asia"
+                      src="https://img.icons8.com/3d-fluency/94/null/asia.png"
+                    />
+                    <p>
+                      Asia
+                    </p>
+                  </div>
+                </a>
+                <a
+                  class="regions"
+                  href="/Oceania"
+                >
+                  <div
+                    class="category"
+                    id="Oceania"
+                  >
+                    <img
+                      alt="Oceania"
+                      src="https://img.icons8.com/3d-fluency/94/null/asia.png"
+                    />
+                    <p>
+                      Oceania
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </section>
+        </section>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div>
+      <header
+        class="header"
+      >
+        <i
+          class="fa-solid fa-backward-step"
+        />
+        <img
+          alt="App logo"
+          src="https://img.icons8.com/external-icons-smashing-stocks/68/000000/external-Currencies-stock-market-icons-smashing-stocks.png"
+        />
+        <a
+          href="/continents"
+        >
+          <i
+            class="fa-solid fa-house"
+          />
+        </a>
+      </header>
+      <section
+        class="continents-page"
+      >
+        <div
+          class="intro"
+        >
+          <div
+            class="intro-content"
+          >
+            <div
+              class="intro-details"
+            >
+              <h1
+                class="intro-text"
+              >
+                Currex
+              </h1>
+              <p
+                class="intro-subtext"
+              >
+                Foreign Exchange
+                <br />
+                Latest currency figures
+              </p>
+            </div>
+            <div
+              class="scroll"
+              style="display: block;"
+            >
+              Scroll Down
+              <br />
+              <i
+                class="fa-sharp fa-solid fa-chevron-down fa-3x"
+              />
+            </div>
+          </div>
+        </div>
+        <section
+          class="categories"
+        >
+          <h2>
+            Regions
+          </h2>
+          <div
+            class="categories-container"
+          >
+            <div
+              class="wrapper1"
+            >
               <a
                 class="regions"
                 href="/Africa"
@@ -66,7 +248,7 @@ Object {
                 >
                   <img
                     alt="Africa"
-                    src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                    src="https://img.icons8.com/3d-fluency/94/null/globe-africa.png"
                   />
                   <p>
                     Africa
@@ -100,13 +282,17 @@ Object {
                 >
                   <img
                     alt="Americas"
-                    src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                    src="https://img.icons8.com/3d-fluency/94/null/america.png"
                   />
                   <p>
                     Americas
                   </p>
                 </div>
               </a>
+            </div>
+            <div
+              class="wrapper2"
+            >
               <a
                 class="regions"
                 href="/Asia"
@@ -117,7 +303,7 @@ Object {
                 >
                   <img
                     alt="Asia"
-                    src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                    src="https://img.icons8.com/3d-fluency/94/null/asia.png"
                   />
                   <p>
                     Asia
@@ -134,7 +320,7 @@ Object {
                 >
                   <img
                     alt="Oceania"
-                    src="https://img.icons8.com/3d-fluency/94/null/europe.png"
+                    src="https://img.icons8.com/3d-fluency/94/null/asia.png"
                   />
                   <p>
                     Oceania
@@ -142,148 +328,6 @@ Object {
                 </div>
               </a>
             </div>
-          </section>
-        </section>
-      </div>
-    </div>
-  </body>,
-  "container": <div>
-    <div>
-      <header
-        class="header"
-      >
-        <i
-          class="fa-solid fa-backward-step"
-        />
-        <img
-          alt="App logo"
-          src="https://img.icons8.com/external-icons-smashing-stocks/68/000000/external-Currencies-stock-market-icons-smashing-stocks.png"
-        />
-        <a
-          href="/continents"
-        >
-          <span
-            class="material-symbols-outlined"
-          >
-            home
-          </span>
-        </a>
-      </header>
-      <section
-        class="continents-page"
-      >
-        <div
-          class="intro"
-        >
-          <div
-            class="intro-content"
-          >
-            <h1
-              class="intro-text"
-            >
-              Currex
-            </h1>
-            <p
-              class="intro-subtext"
-            >
-              latest currency figures
-            </p>
-          </div>
-        </div>
-        <section
-          class="categories"
-        >
-          <h2>
-            Regions
-          </h2>
-          <div
-            class="categories-container"
-          >
-            <a
-              class="regions"
-              href="/Africa"
-            >
-              <div
-                class="category"
-                id="Africa"
-              >
-                <img
-                  alt="Africa"
-                  src="https://img.icons8.com/3d-fluency/94/null/europe.png"
-                />
-                <p>
-                  Africa
-                </p>
-              </div>
-            </a>
-            <a
-              class="regions"
-              href="/Europe"
-            >
-              <div
-                class="category"
-                id="Europe"
-              >
-                <img
-                  alt="Europe"
-                  src="https://img.icons8.com/3d-fluency/94/null/europe.png"
-                />
-                <p>
-                  Europe
-                </p>
-              </div>
-            </a>
-            <a
-              class="regions"
-              href="/Americas"
-            >
-              <div
-                class="category"
-                id="Americas"
-              >
-                <img
-                  alt="Americas"
-                  src="https://img.icons8.com/3d-fluency/94/null/europe.png"
-                />
-                <p>
-                  Americas
-                </p>
-              </div>
-            </a>
-            <a
-              class="regions"
-              href="/Asia"
-            >
-              <div
-                class="category"
-                id="Asia"
-              >
-                <img
-                  alt="Asia"
-                  src="https://img.icons8.com/3d-fluency/94/null/europe.png"
-                />
-                <p>
-                  Asia
-                </p>
-              </div>
-            </a>
-            <a
-              class="regions"
-              href="/Oceania"
-            >
-              <div
-                class="category"
-                id="Oceania"
-              >
-                <img
-                  alt="Oceania"
-                  src="https://img.icons8.com/3d-fluency/94/null/europe.png"
-                />
-                <p>
-                  Oceania
-                </p>
-              </div>
-            </a>
           </div>
         </section>
       </section>
