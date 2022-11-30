@@ -97,86 +97,88 @@ const Conversion = () => {
           </p>
         </div>
         <section className="country-info">
-          <article>
-            <div>
-              <h2>{data[0].name.official}</h2>
-              <ul className="country-info-list">
-                <li className="info-list-item">{data[0].region}</li>
-                <li className="info-list-item">{data[0].subregion}</li>
-                <li className="info-list-item">
-                  Population
-                  {' '}
-                  :
-                  {' '}
-                  {data[0].population}
-                </li>
-                <li className="info-list-item">{final}</li>
-                <li className="info-list-item">{data[0].timezones[0]}</li>
-              </ul>
-            </div>
-            <img src={data[0].flags.svg} alt={data[0].name.common} />
-          </article>
-          <form action="" className="conversion-form">
-            <h3>Conversion</h3>
-            <label htmlFor="value">
-              <input
-                type="text"
-                name="value"
-                id="value"
-                placeholder={reverseValue === 0 ? final : reverseValue}
-                onChange={conversion}
-                onBlur={(e) => {
-                  e.target.value = '';
-                  setInputValue(0);
-                }}
-              />
-            </label>
-            <button
-              style={{
-                display: displayState ? 'none' : 'block',
-              }}
-              type="button"
-              name="displaySelect"
-              onClick={displaySelect}
-              className="btn-display"
-            >
-              Select another currency
-            </button>
-            <ul //eslint-disable-line
-              style={{
-                display: displayState ? 'block' : 'none',
-              }}
-              name="currency-item"
-              id="currency-select"
-              onClick={resultName}
-              className="currency-li"
-            >
-              {
-                fetchCurrencies.map((item, index) => (
-                  <li //eslint-disable-line
-                    key={item[0]}
-                    value={index}
-                    onClick={resultName} //eslint-disable-line
-                  >
-                    {item[1]}
+          <div className="country-info-container">
+            <article>
+              <div>
+                <h2>{data[0].name.official}</h2>
+                <ul className="country-info-list">
+                  <li className="info-list-item">{data[0].region}</li>
+                  <li className="info-list-item">{data[0].subregion}</li>
+                  <li className="info-list-item">
+                    Population
+                    {' '}
+                    :
+                    {' '}
+                    {data[0].population}
                   </li>
-                ))
-              }
-            </ul>
-            <label htmlFor="result">
-              <input
-                type="text"
-                name="result"
-                id="result"
-                placeholder={inputValue === 0 ? inputState : inputValue}
-                onChange={reverseConversion}
-                onBlur={(e) => {
-                  e.target.value = '';
-                  setReverseValue(0);
+                  <li className="info-list-item">{final}</li>
+                  <li className="info-list-item">{data[0].timezones[0]}</li>
+                </ul>
+              </div>
+              <img src={data[0].flags.svg} alt={data[0].name.common} />
+            </article>
+            <form action="" className="conversion-form">
+              <h3>Conversion</h3>
+              <label htmlFor="value">
+                <input
+                  type="text"
+                  name="value"
+                  id="value"
+                  placeholder={reverseValue === 0 ? final : reverseValue}
+                  onChange={conversion}
+                  onBlur={(e) => {
+                    e.target.value = '';
+                    setInputValue(0);
+                  }}
+                />
+              </label>
+              <button
+                style={{
+                  display: displayState ? 'none' : 'block',
                 }}
-              />
-            </label>
-          </form>
+                type="button"
+                name="displaySelect"
+                onClick={displaySelect}
+                className="btn-display"
+              >
+                Select another currency
+              </button>
+              <ul //eslint-disable-line
+                style={{
+                  display: displayState ? 'block' : 'none',
+                }}
+                name="currency-item"
+                id="currency-select"
+                onClick={resultName}
+                className="currency-li"
+              >
+                {
+                  fetchCurrencies.map((item, index) => (
+                    <li //eslint-disable-line
+                      key={item[0]}
+                      value={index}
+                      onClick={resultName} //eslint-disable-line
+                    >
+                      {item[1]}
+                    </li>
+                  ))
+                }
+              </ul>
+              <label htmlFor="result">
+                <input
+                  type="text"
+                  name="result"
+                  id="result"
+                  placeholder={inputValue === 0 ? inputState : inputValue}
+                  onChange={reverseConversion}
+                  onBlur={(e) => {
+                    e.target.value = '';
+                    setReverseValue(0);
+                  }}
+                />
+              </label>
+            </form>
+          </div>
         </section>
       </section>
     </div>
