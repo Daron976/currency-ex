@@ -25,7 +25,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Space travel <a name="about-project"></a>
+# 📖 Currex <a name="about-project"></a>
 
 This is a currency exchange app that allows users to convert the currency of any country to the another currency while providing data about the country in question.
 
